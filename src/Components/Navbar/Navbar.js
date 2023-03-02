@@ -42,7 +42,7 @@ class Navbar extends Component {
                                 }
                         activeStyle={{color: 'white', textDecoration: 'underline white'}}
                     >
-                        Hamster
+                        User Profile
                     </NavLink>
 
                     <NavLink
@@ -76,7 +76,7 @@ class Navbar extends Component {
                         className={[this.props.classes.navLinkStyle, this.props.classes.signupAndSignin].join(' ')}
                         activeStyle={styles.activeLinks}
                         to='/sign-up'>
-                            Sign up
+                            Register
                     </NavLink>
 
                     <NavLink 
@@ -99,7 +99,7 @@ class Navbar extends Component {
                      to='/'
                      className={this.props.classes.navLinkStyle}
                      activeStyle={styles.activeLinks}
-                     >Talk That Talk!!</NavLink>
+                     >Talk That Shit!!</NavLink>
 
                      <section className={this.props.classes.rightToolbar}>
                         
